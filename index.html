@@ -17,6 +17,19 @@
     padding: 20px;
     box-shadow: 0 0 20px rgba(0, 255, 156, 0.3);
   }
+  .profile {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.profile img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px solid #00ff9c;
+  box-shadow: 0 0 15px rgba(0, 255, 156, 0.6);
+  object-fit: cover;
+}
   .cursor {
     display: inline-block;
     width: 10px;
@@ -29,8 +42,11 @@
 </style>
 </head>
 <body>
-
+<div class="profile">
+  <img src="images/amanda.JPG" alt="Birthday Person">
+</div>
 <div class="terminal" id="terminal"></div>
+
 
 <script>
 const lines = [
